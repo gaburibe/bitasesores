@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>BiT Asesores</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+<style type="text/css">
+  .bg-primary {
+    background-color: darkgrey !important;
+}
+.tenis{
+  background: url(img/backbit.png);
+  background-size: cover;
+}
+.shadow{
+  -webkit-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75) !important;
+background-color: white;
+}
+.shadow2{
+box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.15) !important;
+background-color: black;
+}
+.cherry{
+  background-color: #ffffff75;
+  color:black;
+}
+#services{
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+}
+body{
+  background-color: whitesmoke;
+}
+.gradient{
+/*background: url(img/backbit.png);*/
+  background-size: cover;
+
+
+}
+textarea{
+  min-height: 250px;
+  background-color: darkgrey !important;
+}
+input{
+  background-color: darkgrey !important;
+}
+fresco{
+  color: #007bfe;
+  width: 100%;
+  color:black;
+  text-align: left;
+}
+.descripcion{
+  text-align: center;
+  background-color: rgba(0,0,0,.5);
+}
+.pregunta{
+  color: black;
+  
+  text-align: center;
+}
+.respuesta{
+      background-color: rgb(72 92 106);
+    color: white;
+    border: 2px solid white;
+}
+.bg-dark{
+  background-color: #101010b5 !important;
+}
+.pregunta{
+  margin:5px;
+  padding:4px;
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+  
+}
+.pnum{
+  font-size: 30px;
+  margin-left: 5px;
+  cursor: pointer;
+    
+}
+.pnum:hover{
+  text-decoration: underline;
+
+}
+.pnumselected{
+  color:blue;
+}
+section {
+    padding: 10px 0;
+}
+select{
+  font-size: 28px;
+}
+</style>
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="https://www.bitasesores.com.mx/" target="_blank"><img style="height: 50px;" src="img/logosmall.png"></a>
+      
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#currentQ">cuestionario</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white tenis" id="head">
+    <div class="container text-center " style="color:yellow;">
+      
+      <h3 style="color:black;" class="shadow"><img style="max-width: 80%;" src="img/logobit.png"> </h3>
+      <h5 style="color:black;" class="shadow">Cuestionario</h5><br>
+      <div class="form-group">
+        <!-- <label style="color:black;" for="exampleInputEmail1">Clave de acceso</label> -->
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa aquí tu clave de acceso">
+        <br>
+        <button type="button" onclick="hidepass()" class="btn btn-primary">Comenzar</button>
+        <!-- <small id="emailHelp" class="form-text text-muted">Copia y pega tu código de acceso.</small> -->
+      </div>
+      
+    </div>
+  </header>
+
+        
+   
+ 
+        
+  
+  <section id=""  class="gradient">
+    <div class="container" style="background-color: white">
+      <table>
+        <tr>
+          <td><h3 style="color:black;font-size: 13px;">Sección:</h3>
+        </td>
+          <td><h3 style="color:black;font-size: 13px;">Pregunta:</h3>
+        </td>
+        </tr>
+        <tr>
+          <td><select class="selectpicker" id="seccionesmenu"></select></td>
+          <td><div id="pcontainer"></div></td>
+        </tr>
+      </table>
+        
+        
+    </div>
+    <div id="currentQ"></div>  
+
+    
+
+    
+  </section>
+
+
+  
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">  &copy; BiT Asesores </p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+<script type="text/javascript">
+var _MENU={};
+$(document).ready(function(){
+  console.log("READY")
+  getMenu()
+});
+
+function getMenu(){
+
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+      var myObj = JSON.parse(this.responseText);
+      _MENU=myObj.cuestionario;
+      console.log(_MENU)
+      for(secc in _MENU){
+          $("#seccionesmenu").append('<option>'+secc+'</option>');
+          
+        }
+      refresh()
+        despliegaQ("A: Introducción a la compañía",0);
+        gotoQ(0)
+      
+      }
+  };
+  xmlhttp.open("GET", "/menu", true);
+  xmlhttp.send();
+}
+$( "#seccionesmenu" ).change(function() {
+  refresh();
+  gotoQ(0)
+});
+function refresh(){
+  seccion=$( "#seccionesmenu option:selected" ).text();
+  console.log(seccion,"---")
+  $("#pcontainer").html("");
+  for (var i = 0; i < _MENU[seccion].length; i++){
+            $("#pcontainer").append('<span class="pnum" num="'+i+'" onclick="gotoQ('+i+')">  '+i+'  </span>')
+  }
+}
+function gotoQ(i){
+  $(".pnum").removeClass("pnumselected")
+  $(".pnum[num='"+i+"']").addClass("pnumselected");
+  seccion=$( "#seccionesmenu option:selected" ).text();
+   despliegaQ(seccion,i)
+}
+function despliegaQ(sec,num){
+  quest=typestr(_MENU[sec][num],sec+num);
+  object='    <div class="container shadow" >\
+      <h1 style="color:black;" class="pregunta">'+_MENU[sec][num].texto+'</h1>\
+      <div class="row respuesta"  style="color: darkgrey;padding:15px;">\
+        <div class="col-lg-12 mx-auto">'+quest+
+        '</div>\
+      </div>\
+      <div class="row descripcion"  style="color: black;padding:15px;">\
+        <fresco>'+_MENU[sec][num].desc+'</fresco>\
+      </div>  \
+    </div>';
+    $("#currentQ").html(object);
+}
+function typestr(objeto,label){
+  Rstr="";
+  if(objeto.type=="select"){
+    Rstr+='<select name="cars" id="'+label+'" class="form-control respuesta">';
+    for (var i = 0; i < objeto.vals.length; i++) {
+      console.log(objeto.vals[i])
+      Rstr+='<option class="respuesta" value="'+objeto.vals[i].toLowerCase()+'">'+objeto.vals[i].toUpperCase()+'</option>';
+    }
+    Rstr+='</select>';
+  }
+  if(objeto.type=="open"){
+    Rstr+='Escribe Respuesta aquí:<Br><textarea class="form-control respuesta"></textarea>';
+  }
+  if(objeto.type=="opcional"){
+    Rstr+='Responder sólo si se cuenta con la información:<Br><textarea class="form-control respuesta"></textarea>';
+  }
+  if(objeto.type=="num"){
+    Rstr+='Escribe el número aquí:<Br><input type="text" name=""></input>';
+  }
+  if(objeto.type=="table"){
+    Rstr+='Añade la información en la tabla:<Br>';
+    head='<table class="table respuesta">\
+        <thead>\
+          <tr>'
+          
+    for (var i = 0; i < objeto.vals.length; i++) {
+      head+='<th scope="col">'+objeto.vals[i]+'</th>'
+    }
+    head+='</tr></thead>';
+    body='  <tbody>';
+    for (var i = 0; i < 3; i++) {
+      body+='<tr>'
+      for (var j = 0; j < objeto.vals.length; j++) {
+        body+='<td><input type="text" name="'+i+"-"+j+'"></td>';
+      }
+      body+='</tr>';
+    }
+    body+='</table>';
+    body+='<button type="button" class="btn btn-primary">Añadir renglón</button>';
+    Rstr+=head+body;
+  }
+  
+  return Rstr;
+}
+function hidepass(){
+  $("#head").hide("slow");
+}
+</script>
+</html>
