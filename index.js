@@ -53,10 +53,31 @@ app.get('/menu', function (req, res) {
 		        
 		    }
 		})
-	
-
 });
-
+app.post("/menu", function(req,res){
+	name=req.body["name"];
+	if (fs.existsSync('cuestionarios/'+name+'.json')) {
+	    		fs.readFile('cuestionarios/'+name+'.json', 'utf8', (err, jsonString) => {
+				    if (err) {
+				        console.log("Error reading file from disk:", err)
+				        res.json({});
+				       
+				    }
+				    try {
+				        this.liveMenu=JSON.parse(jsonString);
+				        res.json(this.liveMenu);
+				} catch(err) {
+				        console.log('Error parsing JSON string:', err)
+				        res.json({});
+				    }
+				})
+	  }
+	  else{
+	  	res.json({});
+	  }
+	
+	
+})
 
 
 
@@ -69,7 +90,16 @@ app.get('/', function (req, res) {
 
 
 });
-
+app.post("/saveprogress", function(req,res){
+	name=req.body["name"];
+	cuestionario=req.body["cuestionario"];
+	fs.writeFile('cuestionarios/'+name+'.json', JSON.stringify(cuestionario), (err) => {
+	    if (err) throw err;
+	    console.log('Data written to file');
+	    res.json({status:"saved"});
+	});
+	console.log(name,"cuestionario")
+})
 
 
 
