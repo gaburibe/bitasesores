@@ -168,6 +168,7 @@ header {
 input{
   background-color: rgb(207 207 207);
   text-align: center;
+      width: 110px;
 }
 select.respuesta{
   background-color: rgb(207 207 207) !important;
@@ -203,7 +204,7 @@ textarea.respuesta{
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" style="color:grey;" href="#currentQ">Nosotros</a>
           </li>
           <li class="nav-item">
@@ -214,7 +215,7 @@ textarea.respuesta{
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" style="color:grey;" href="#currentQ">Contacto</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" style="color:black;" href="#currentQ">Cuestionario</a>
           </li>
@@ -241,7 +242,9 @@ textarea.respuesta{
             <span>B: Información general la compañia</span><br>
             <span>C: Objetivos Estratégicos</span><br>
             <span>D: Productos y servicios</span><br>
-            <span>E: Introducción a la compañia</span><br>
+            <span>E: Panorama competitivo</span><br>
+            <span>F: Ventas</span><br>
+            <span>G: Resumen organizacional</span><br>
           </div>
           <br><br>
           <h5>El cuestionario guarda las respuestas automaticamente cada que se cambia la pregunta. Las preguntas por responder estan en color <span class="high">NEGRO</span> y las previamente respondidas en <span class="high" style="color:darkcyan;">Azúl</span></h5>
@@ -272,7 +275,7 @@ textarea.respuesta{
               </div>
             </div> 
             <div class="col-lg-4">
-              <img src="img/save.png" onclick="save()" style="width:50px;">
+              <img src="img/save.png" style="display:none;" onclick="save()" style="width:50px;">
               <!-- <button onclick="save()">Guardar</button> -->
             </div>
           </div>
