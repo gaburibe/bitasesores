@@ -33,9 +33,9 @@ app.use('/bandeja/', express.static(__dirname + '/bandeja'));
 app.use('/ordenes/', express.static(__dirname + '/ordenes'));
 app.use('/archivo/', express.static(__dirname + '/archivo'));
 
-// const corsOptions = {
-//   origin: 'http://bitasesores.tech'
-// }
+const corsOptions = {
+  origin: 'http://bitasesores.tech'
+}
 
 app.use(cors(corsOptions))
 
@@ -60,7 +60,7 @@ app.get('/menu', function (req, res) {
 		    }
 		})
 });
-app.post("/menu",cors(), function(req,res){
+app.post("/menu", function(req,res){
 	name=req.body["name"];
 	if (fs.existsSync('cuestionarios/'+name+'.json')) {
 	    		fs.readFile('cuestionarios/'+name+'.json', 'utf8', (err, jsonString) => {
@@ -96,7 +96,7 @@ app.get('/', function (req, res) {
 
 
 });
-app.post("/saveprogress",cors(), function(req,res){
+app.post("/saveprogress", function(req,res){
 	name=req.body["name"];
 	cuestionario=req.body["cuestionario"];
 	fs.writeFile('cuestionarios/'+name+'.json', JSON.stringify(cuestionario), (err) => {
