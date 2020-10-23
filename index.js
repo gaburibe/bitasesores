@@ -34,7 +34,7 @@ app.use('/ordenes/', express.static(__dirname + '/ordenes'));
 app.use('/archivo/', express.static(__dirname + '/archivo'));
 
 const corsOptions = {
-  origin: ['http://localhost:4949','http://bitasesores.tech','http://docfresco.com']
+  origin: 'http://bitasesores.tech'
 }
 
 app.use(cors(corsOptions))
