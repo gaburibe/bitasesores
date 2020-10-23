@@ -342,7 +342,7 @@ function getMenu(){
       
       }
   };
-  xmlhttp.open("GET", "/menu", true);
+  xmlhttp.open("GET", "http://199.244.51.123:4949/menu", true);
   xmlhttp.send();
 }
 $( "#seccionesmenu" ).change(function() {
@@ -487,7 +487,7 @@ function getquest(){
   name=$("#claveacceso").val();
   $("#registeredname").html(name);
   $.ajax({
-        url: '/menu',
+        url: 'http://199.244.51.123:4949/menu',
         type: 'POST',
         contentType: 'application/json',
         data: JSON.stringify({"name":name}),
@@ -564,7 +564,7 @@ function updateTable(element){
 function save(){
   name2save=$("#registeredname").html();
   $.ajax({
-        url: '/saveprogress',
+        url: 'http://199.244.51.123:4949/saveprogress',
         type: 'POST',
         contentType: 'application/json',
         data: JSON.stringify({"name":name2save,"cuestionario":_MENU}),
