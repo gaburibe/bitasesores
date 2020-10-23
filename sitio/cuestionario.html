@@ -191,7 +191,7 @@ textarea.respuesta{
 }
 </style>
 <body id="page-top">
-
+  <div id="registeredname" style="display:none"></div>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mainNav">
     <div class="container">
@@ -243,6 +243,8 @@ textarea.respuesta{
             <span>D: Productos y servicios</span><br>
             <span>E: Introducción a la compañia</span><br>
           </div>
+          <br><br>
+          <h5>El cuestionario guarda las respuestas automaticamente cada que se cambia la pregunta. Las preguntas por responder estan en color <span class="high">NEGRO</span> y las previamente respondidas en <span class="high" style="color:darkcyan;">Azúl</span></h5>
           <br>
           
           <div class="form-group">
@@ -380,6 +382,7 @@ function gotoQ(i){
   refresh();
   $(".pnum[num='"+i+"']").addClass("pnumselected");
    despliegaQ(seccion,i)
+   save();
 }
 function despliegaQ(sec,num){
   idlab=sec.split(":");
@@ -446,8 +449,8 @@ function typestr(objeto,id,label){
 }
 function addrow(id){
   
-  numcols=$("#"+id).find("tr:nth-child(2) td").length;
-  console.log("num",numcols)
+  numcols=$("#"+id).find("tr:nth-child(1) td").length;
+  console.log("num",id,numcols)
   htmlrow="<tr>";
   for (var i = 0; i < numcols; i++) {
     htmlrow+='<td><input type="text" name=""></td>'
@@ -482,6 +485,7 @@ function makeRespuesta(id,type,elemento){
 }
 function getquest(){
   name=$("#claveacceso").val();
+  $("#registeredname").html(name);
   $.ajax({
         url: '/menu',
         type: 'POST',
@@ -558,11 +562,12 @@ function updateTable(element){
 
 }
 function save(){
+  name2save=$("#registeredname").html();
   $.ajax({
         url: '/saveprogress',
         type: 'POST',
         contentType: 'application/json',
-        data: JSON.stringify({"name":"Doc","cuestionario":_MENU}),
+        data: JSON.stringify({"name":name2save,"cuestionario":_MENU}),
         dataType: 'json',
         error: function(xhr, status, error) {
           console.log(xhr, status, error);
@@ -575,6 +580,16 @@ function save(){
           
         }
     });
+}
+function reset(){
+  console.log(_MENU);
+  name2save=$("#registeredname").html("new");
+  for (seccion in _MENU){
+    for(i=0;i<_MENU[seccion].length;i++){
+      _MENU[seccion][i].respuesta="";
+    }
+  }
+  save();
 }
 </script>
 </html>

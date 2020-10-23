@@ -31,7 +31,8 @@ app.use('/', express.static(__dirname + '/sitio'));
 app.use('/bandeja/', express.static(__dirname + '/bandeja'));
 app.use('/ordenes/', express.static(__dirname + '/ordenes'));
 app.use('/archivo/', express.static(__dirname + '/archivo'));
-
+res.header("Access-Control-Allow-Origin", "http://bitasesores.tech"); // update to match the domain you will make the request from
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 
 
 
