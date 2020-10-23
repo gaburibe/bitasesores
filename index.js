@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+const cors = require('cors')
 var bodyParser = require('body-parser')
 const dotenv = require('dotenv');
 dotenv.config();
@@ -32,13 +33,11 @@ app.use('/bandeja/', express.static(__dirname + '/bandeja'));
 app.use('/ordenes/', express.static(__dirname + '/ordenes'));
 app.use('/archivo/', express.static(__dirname + '/archivo'));
 
-app.use(function(req, res, next) {
-	res.header("Access-Control-Allow-Origin", "http://bitasesores.tech");
-	res.header("Access-Control-Allow-Origin", "http://localhost:4949");
-  res.header("Access-Control-Allow-Origin", "http://docfresco.com"); // update to match the domain you will make the request from
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
+const corsOptions = {
+  origin: 'http://localhost:4949'
+}
+
+app.use(cors(corsOptions))
 
 
 
