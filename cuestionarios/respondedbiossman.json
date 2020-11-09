@@ -4,98 +4,98 @@
 		"type": "select",
 		"vals": ["industrial", "comercial", "servicios"],
 		"desc": "Descripción:<Br><Br>Una empresa industrial transforma materiales en productos elaborados.<Br><Br>Una empresa comercial compra bienes o servicios y los vende, sin transformarlos.<Br><Br>Una empresa de servicios, proporciona activos intangibles.<Br><Br>Ejemplos:<Br><Br>Industrial<Br>Extracción de Recursos Naturales.<Br>Fabricación de consumo por los usuarios finales, o de otras empresas (productos químicos, maquinaria, etc).<Br><Br>Comerciales<Br>Comercio al por mayor.<Br>Minorista.<Br>Re-vendedores.<Br><Br>Servicios<Br>Transportación.<Br>Servicios Financieros.<Br>Contabilidad, Consultoría, Servicios Jurídicos.<Br>Educación.<Br>Servicios de Salud.",
-		"respuesta": ""
+		"respuesta": "servicios"
 	}, {
 		"texto": "¿Dónde están localizados los clientes de la compañía? ",
 		"type": "open",
 		"vals": [],
 		"desc": "<span style=\"color:darkgrey;\">Indica de arriba hacia abajo usando criterios de concentración</span><Br> <h5> Ejemplo:<h5><span class=\"ejemploc\">CDMX, Guadalajar, Puebla, Queretaro, Monterrey<span/>",
-		"respuesta": ""
+		"respuesta": "Los principales clientes de la Compañía corresponden al Sector Público en materia de Salud y se ubican en:\n\nCDMX (ISSSTE FEDERAL PARA ATENDER LOS ESTADOS DE: MICHOACAN, MORELOS, PUEBLA, YUCATAN, QUINTANA ROO, CAMPECHE, CHIAPAS, GUERRERO, OAXACA, HIDALGO, ESTADO DE MEXICO, GUANAJUATO Y VERACRUZ  \nESTADO DE QUINTANA ROO (SECRETARÍA DE SALUD ESTATAL).\nESTADO DE BAJA CALIFORNIA (SECRETARÍA DE SALUD ESTATAL).\nESTADO DE CHIAPAS (HOSPITAL DE ALTA ESPECIALIDAD DE CHIAPAS EN TAPACHULA).\nESTADO DE PUEBLA (HOSPITAL DEL ISSSTEP EN LA CIUDAD DE PUEBLA).\nNota: Ver Anexo 1. \nEn el Sector Privado:\nESTADO DE CHIHUAHUA LA EMPRESA \"AO MEDICAL\" COMO SUBDISTRIBUIDOR. \n"
 	}, {
 		"texto": "¿Cuáles son los segmentos a los que está dirigida la empresa?",
 		"type": "open",
 		"vals": [],
 		"desc": "<span style=\"color:darkgrey;\">Separa con una coma los segmentos.</span><h5>Descripción:</h5><Br>División de los compradores/usuarios de los bienes y/o servicios comercializados por la empresa, en consideración de necesidades identificables y/o deseos, género, rentabilidad, rentabilidad potencial, comportamiento de compra, niveles de ingreso disponible, entre otros criterios.<Br><Br><h5>Ejemplo:</h5><Br>En la industria del juego, los casinos siguen el gasto promedio de los clientes. El casino proporciona diferentes experiencias de juego a clientes con altos gastos y con clientes con alto potencial identificados con modelos predictivos distintos a los clientes de bajo gasto. Los casinos gastan más para atraer a jugadores que gastan más, e incluso pagan gastos de viaje y gastos de alojamiento a clientes frecuentes con altos niveles de gasto y que generan mayores beneficios para los casinos.",
-		"respuesta": ""
+		"respuesta": "Principalmente al Sector Gobierno, con posibilidades de incursionar de forma directa al Sector Privado en el corto plazo."
 	}, {
 		"texto": "¿Qué es lo que la compañía manufactura, distribuye, comercializa?",
 		"type": "open",
 		"vals": [],
 		"desc": "<span style=\"color:darkgrey;\">Separa con una coma</span><h5>Descripción:</h5>Un grupo de productos o servicios que están estrechamente relacionados, ya sea porque funcionan de forma similar, se venden a los mismos grupos de clientes, son comercializados a través del mismo punto de venta, o entran en un mismo rango de precio.<Br><Br><h5>Ejemplos:</h5><span style=\"color:darkcyan;\">Bebidas no alcohólicas sin carbonación, incluyendo aguas sin carbonización, Aguas con sabor y aguas enriquecidas,Bebidas energéticas sin carbonización,Jugos,Tés y café,Bebidas Deportivas,Jarabes.</span>",
-		"respuesta": ""
+		"respuesta": "Ofrecemos servicios de alta calidad para las especialidades de ortopedia y traumatología, con asistencia transoperatoria y suministro de los insumos necesarios para garantizar procedimientos quirúrgicos efectivos y confiables.\nDiseñamos esquemas de servicio apegados a las necesidades y expectativas de los clientes. \n\nNota: Ver Anexo 2."
 	}, {
 		"texto": "¿Cuál es la estrategia de Crecimiento de la empresa?",
 		"type": "open",
 		"vals": [],
-		"desc": " <h5>Descripción:</h5> Los objetivos estratégicos de cada negocio son buscar el crecimiento de flujos de caja. Descomponer las fuentes de crecimiento permite a los administradores tomar las decisiones para saber en qué segmentos de mercado deben competir y alinear sus decisiones estratégicas. <Br><Br><h5>Ejemplo:</h5><Br>Un crecimiento en los flujos de caja puede ser gracias a la reasignación de recursos para la venta de productos y servicios más rentables, el diseño de cartera de productos incorporando productos y servicios de fuerte crecimiento relacionados a la demanda, desinversiones, adquisición o venta de ingresos mediante fusiones y adquisiciones, mejora en la participación de mercado, alianzas estratégicas y operativas, la expansión geográfica, reducción de costos excesivos, mejor segmentación del mercado, mejora del servicio al cliente y la satisfacción, mayor control de planificación y ejecución, entre otros.",
-		"respuesta": ""
+		"desc": " <h5>Descripción:</h5> Los objetivos estratégicos de cada negocio son buscar el crecimiento de flujos de caja. Descomponer las fuentes de crecimiento permite a los administradores tomar las decisiones para saber en qué segmentos de mercado deben competir y alinear sus decisiones estratégicas. <Br><Br><h5>Ejemplo:</h5><span style=\"color:darkcyan;\">forma: 20% a través de nuestro bar, 40% a cuentas claves exclusivas, 10% en festivales, 5% en línea, 35% a bares y restaurantes.</span><Br>Un crecimiento en los flujos de caja puede ser gracias a la reasignación de recursos para la venta de productos y servicios más rentables, el diseño de cartera de productos incorporando productos y servicios de fuerte crecimiento relacionados a la demanda, desinversiones, adquisición o venta de ingresos mediante fusiones y adquisiciones, mejora en la participación de mercado, alianzas estratégicas y operativas, la expansión geográfica, reducción de costos excesivos, mejor segmentación del mercado, mejora del servicio al cliente y la satisfacción, mayor control de planificación y ejecución, entre otros.",
+		"respuesta": "En el Sector Público:\nMantener nuestra presencia con los actuales clientes e incorporar nuevos en función a la capacidad instalada de la empresa, de tal forma que nos permita mantener costos operativos bajos y la calidad en el servicio.\nIncursionar a partir del 2021 en el mercado del IMSS, con líneas de productos propias con precios mas competitivos para este segmento de mercado.\nNota: Ver Anexo 3.\nEn el Sector Privado:\nPreferentemente en las zonas geográficas del país en las que tenemos presencia incursionar en hospitales privados para aprovechar nuestra capacidad instalada en cada una de ellas, además incorporar a los servicios actuales insumos diferenciadores que permitan innovar y mejorar los servicios respecto a los que ofrece la competencia.    "
 	}, {
 		"texto": "Por favor, describe las principales metas u objetivos a alcanzar con la Estrategia de crecimiento.",
 		"type": "open",
 		"vals": [],
-		"desc": "",
-		"respuesta": ""
+		"desc": "Ejemplo:<Br><span style=\"color:darkcyan;\">200 K USD de ventas en el 2020 + ventas de bar, 380 K USD de ventas en el 2021 + ventas de 3 unidades (abrir 2ndo bar a inicios del 2021, 3ero a finales)</span>",
+		"respuesta": "Ventas en 2020: \nSector Público 166 Mdp\nVentas en 2021:\nSector Público 332 Mdp\nSector Privado 8 Mdp\n"
 	}],
 	"B: La compañía": [{
 		"texto": "¿Qué tipo de persona jurídica comprende el grupo de empresas operativas?",
 		"type": "open",
 		"vals": [],
-		"desc": "Ejemplo:<Br><ul style=\"color:darkcyan;\"> <li>S.A. </li><li>   <li>S.A. de C.V.</li>  <li>S. de R.L.</li>  <li>S. de R.L. de C.V.</li>  <li>S.C.</li> <li> S.A.P.I., </li> <li>S.A.P.I. de C.V.</li></ul>",
-		"respuesta": ""
+		"desc": "Ejemplo:<Br><span style=\"color:darkcyan;\">S.A.,   S.A. de C.V.,  S. de R.L.,  S. de R.L. de C.V.,  S.C.,  S.A.P.I.,  S.A.P.I. de C.V.</span>",
+		"respuesta": "S.A. de C.V."
 	}, {
 		"texto": "¿Cuándo fue legalmente constituida la Empresa y cuando comenzó las operaciones (registrando ingresos o gastos)?",
 		"type": "open",
 		"vals": [],
-		"desc": "",
+		"desc": "Ejemplo:<Br><span style=\"color:darkcyan;\">2017, operaciones inciaron diciembre 2017</span>",
 		"respuesta": ""
 	}, {
-		"texto": "¿Quiénes son los actuales accionistas formalmente reconocidos (Con porcentaje accionario)?",
+		"texto": "¿Quiénes son los actuales accionistas formalmente reconocidos?",
 		"type": "open",
 		"vals": [],
-		"desc": "",
-		"respuesta": ""
+		"desc": "Ejemplo:<Br><span style=\"color:darkcyan;\">Teddy Esteve (16%), Alejandor Zapata(16%), Alain Poncelet (16%),, Nicolas Wassenge(4%), Francisco Perez Correa (1%), Caulier Sugar Free (47%)</span>",
+		"respuesta": "ADRIAN GLIEF CERVANTES COVARRUBIAS (66.99%)\nSAMANTHA BARCENAS PACHECO (0.72%)\nTRADEUS CORPORATIVO, S.A.P.I. DE C.V. (8.71%)\nGLISCOMEXIBER, S.L.U. (23.58%)"
 	}, {
 		"texto": "¿Cómo está compuesta la alta gerencia? (Indica brevemente la fecha en la cual el director entro a la compañía, su experiencia y educación).",
 		"type": "open",
 		"vals": [],
-		"desc": "",
+		"desc": "Ejemplo:<Br><span style=\"color:darkcyan;\">Jerónimo Perez Correa, se formó en distribución y fondeo de cine en México, desarrolló la exportación de mezcal Pierde Almas a los EEUU, NYC y California, y creó un modelo seguido hoy por otras empresas como Mezcal Unión. Dirigió Pelagic Life donde canalizó recursos del Gobierno Estatal de BCS a la fundación, creó el primer timbre postal con tiburones en la historia de México y el primer sistema de certificación de pesca sostenible para distribuidores y restaurantes. Tiene experiencia en las industrias restaurantera, agropecuaria, alimentaria y de  alcohol.</span>",
 		"respuesta": ""
 	}, {
 		"texto": "¿Dónde están las instalaciones de la compañía?",
 		"type": "open",
 		"vals": [],
-		"desc": "<span style=\"color:darkgrey;\">Colocar dirección</span>",
-		"respuesta": ""
+		"desc": "<span style=\"color:darkgrey;\">colocar dirección</span>",
+		"respuesta": "Oficinas Centrales en Ciudad de México\nCentro de Distribución en Tultitlán, Estado de México\nCentro Logístico de Ortopedia, Iztapalapa\n\nLos Hospitales funcionan también como almacenes\n"
 	}, {
 		"texto": "¿Quiénes son los clientes a los que la empresa está dirigida?",
 		"type": "open",
 		"vals": [],
-		"desc": "<span style=\"color:darkgrey;\"></span> <h5>Descripción:</h5>  ¿Quiénes son las empresas o particulares que pueden tener una necesidad o el deseo de adquirir los productos y/o servicios de la empresa para su transformación en otros bienes, la integración en su producto/servicio ofrece, o para su uso final?<Br></span>",
-		"respuesta": ""
+		"desc": "<span style=\"color:darkgrey;\"></span> <h5>Descripción:</h5>  ¿Quiénes son las empresas o particulares que pueden tener una necesidad o el deseo de adquirir los productos y/o servicios de la empresa para su transformación en otros bienes, la integración en su producto/servicio ofrece, o para su uso final?<Br><h5>Ejemplo:</h5><br><span style=\"color:darkcyan;\">Grupo Hooters de México, Butcher and Son’s, Sicario, Maison Kaiser, Bajo la Tintorera, La Castellana, Pinco Palinno</span>",
+		"respuesta": "Instituciones del Sector Salud en los ámbitos Gubernamentales y Hospitales Privados."
 	}, {
 		"texto": "Indica el producto/servicio substituto y complementario que tus clientes pueden comprar. ",
 		"type": "open",
 		"vals": [],
-		"desc": "Bienes substitutos son bienes que pueden ser utilizados para satisfacer las mismas necesidades, uno en el lugar de otro. El comprador lleva a cabo una proceso real y consciente de selección acerca de ellos, que conduce a que el comprador prefiera uno en lugar del otro. <Br>Un complemento es un bien o servicio que se utiliza en conjunción con otro bien o servicio. Normalmente, el bien complementario tiene poco o ningún valor cuando se consume solo, pero, cuando se combina con otro bien o servicio, aumenta el valor total de la oferta. <Br> Ejemplo:<Br>Los servicios Triple Play residenciales requieren teléfonos con servicios (de voz), complementado por internet y programación de televisión. Servicios de telefonía fija (de voz)  pueden ser sustituidos con servicios móviles o Voz sobre IP (protocolo de internet). Una oferta que integre Voz sobre IP puede ser dirigida a los que adoptan tecnología y que son sensibles a los precios.",
-		"respuesta": ""
+		"desc": "Ejemplo:<Br>Los servicios Triple Play residenciales requieren teléfonos con servicios (de voz), complementado por internet y programación de televisión. Servicios de telefonía fija (de voz)  pueden ser sustituidos con servicios móviles o Voz sobre IP (protocolo de internet). Una oferta que integre Voz sobre IP puede ser dirigida a los que adoptan tecnología y que son sensibles a los precios.",
+		"respuesta": "Nuestro servicio no tiene un sustituto en el mercado\nTiene complementarios para mejorar los servicios, permitiendo ofrecer una mayor integración."
 	}, {
 		"texto": "¿Por qué consideras que el mercado en el que compites es un mercado atractivo?",
 		"type": "open",
 		"vals": [],
-		"desc": "<span style=\"color:darkgrey;\"></span> <h5>Descripción:</h5>  Un mercado es atractivo por razones como la escasa competencia existente, alto potencial de crecimiento impulsado por tendencias y una adopción amplia del recién creado bien o servicio, los márgenes son elevados, las limitaciones de entrada son altas, las habilidades de la Empresa son únicas y por lo tanto garantiza una importante capacidad para dominar el mercado, existen derechos de propiedad y/o industrial, la consolidación del sector fragmentado es inminente y por lo tanto el alcance de posibles compradores que estén dispuestos a pagar una prima sobre los valores intrínsecos es amplia.<Br><Br><h5>Ejemplo:</h5><span style=\"color:darkcyan;\">Empresas orientadas a la tecnología segmentan mercados mediante la identificación temprana de adoptantes de nuevas tecnología, entre la edad de 18 y 40 años, con mediano a alto nivel de gasto. Empresas con la capacidad tecnológica consideran ciertos mercados como atractivos, en función a la dinámica del mercado y el crecimiento previsto, los lleva a buscar, capturar participación de mercado y altos márgenes.</span>",
-		"respuesta": ""
+		"desc": "<span style=\"color:darkgrey;\"></span> <h5>Descripción:</h5>  Un mercado es atractivo por razones como la escasa competencia existente, alto potencial de crecimiento impulsado por tendencias y una adopción amplia del recién creado bien o servicio, los márgenes son elevados, las limitaciones de entrada son altas, las habilidades de la Empresa son únicas y por lo tanto garantiza una importante capacidad para dominar el mercado, existen derechos de propiedad y/o industrial, la consolidación del sector fragmentado es inminente y por lo tanto el alcance de posibles compradores que estén dispuestos a pagar una prima sobre los valores intrínsecos es amplia.<Br><h5>Ejemplo:</h5><span style=\"color:darkcyan;\">México es uno de los mercados cerveceros más importantes del mundo. Hay una constante y creciente demanda para consuir cervezas Low Carb. El mercado artesanal está creciendo a un ritmo de 30% anual.</span>",
+		"respuesta": "En el Sector Público somos líderes en el Servicio Integral de Ortopedia (ISSSTE FEDERAL y SECRETARIAS DE SALUD ESTATALES), con una penetración de aproximadamente el 15% de este mercado.\nNuestros principales competidores tienen una participación menor el mercado del ISSSTE FEDERAL, en SECRETARIAS DE SALUD ESTATALES se da mucho la participación de proveedores pequeños a nivel local con pocas ofertas de marcas, por lo que nuestra empresa tiene amplias posibilidades de incrementa la presencia en estas instituciones por las ventajas comparativas que presenta y la amplia diversidad de marcas líderes a nivel mundial.   \nNota: Ver Anexo 4. \nEn el Sector Privado actualmente no contamos con presencia, sin embargo existen amplias posibilidades de crecimiento aprovechando las capacidades instaladas que la compañía tiene en algunas zonas geográficas del país.\n"
 	}, {
 		"texto": "¿Cuál es la estrategia de marketing de la empresa? ",
 		"type": "open",
 		"vals": [],
-		"desc": "<span style=\"color:darkgrey;\"></span> <h5>Descripción:</h5>  Marketing es una serie de actividades que tienen como objetivo asegurar, servir y retener clientes para la empresa; ayudándolos  a comprender las necesidades del mercado, creando un producto o servicio que satisfaga las necesidades del mercado y comunicando su valor a los clientes.<Br>Una estrategia de Marketing debe estar respaldada por un Plan de Marketing que contenga: i) objetivos de marketing, tales como metas de ventas, cuota de mercado, rentabilidad, meta de adquisición de cliente, penetración en el mercado, II) segmentos de clientes objetivo, dividiendo mercados en segmentos que tienen diferentes necesidades de compra, de gusto y hábitos, iii) una descripción  del producto/servicio ofrecido, indicando sus atributos para que puedan diferenciarlos en la mente del consumidor y comuniqué los beneficios al cliente de una manera clara , IV) un proceso de investigación de  mercado continuo para reunir información sobre las preferencias y comportamiento de los clientes, así como productos  del competidor, creando conciencia de marca, V) describir los cuatro elementos de la mezcla de mercadeo, es decir, características  del producto, precio, promoción, y el lugar o canales de distribución del producto, y, por último, VI) la administración de la  relación cliente-proveedor, es decir, el proceso de atraer clientes, manteniendo los clientes y si es posible, vendiendo servicios adicionales al cliente.<Br><Br><h5>Ejemplo:</h5>Un plan de marketing puede contemplar la investigación de mercados mediante grupos de enfoque para entender mejor las necesidades/deseos de los clientes potenciales y en qué medida valorarán determinadas ofertas de una empresa y un plan de segmentación, identificando los clientes objetivos que valoran precios bajos en lugar de calidad y aquellos que quieren lo mejor y están dispuestos a pagar por ello.<Br>",
-		"respuesta": ""
+		"desc": "<span style=\"color:darkgrey;\"></span> <h5>Descripción:</h5>  Marketing es una serie de actividades que tienen como objetivo asegurar, servir y retener clientes para la empresa; ayudándolos  a comprender las necesidades del mercado, creando un producto o servicio que satisfaga las necesidades del mercado y comunicando su valor a los clientes.<Br>Una estrategia de Marketing debe estar respaldada por un Plan de Marketing que contenga: i) objetivos de marketing, tales como metas de ventas, cuota de mercado, rentabilidad, meta de adquisición de cliente, penetración en el mercado, II) segmentos de clientes objetivo, dividiendo mercados en segmentos que tienen diferentes necesidades de compra, de gusto y hábitos, iii) una descripción  del producto/servicio ofrecido, indicando sus atributos para que puedan diferenciarlos en la mente del consumidor y comuniqué los beneficios al cliente de una manera clara , IV) un proceso de investigación de  mercado continuo para reunir información sobre las preferencias y comportamiento de los clientes, así como productos  del competidor, creando conciencia de marca, V) describir los cuatro elementos de la mezcla de mercadeo, es decir, características  del producto, precio, promoción, y el lugar o canales de distribución del producto, y, por último, VI) la administración de la  relación cliente-proveedor, es decir, el proceso de atraer clientes, manteniendo los clientes y si es posible, vendiendo servicios adicionales al cliente.<Br><h5>Ejemplo:</h5>Un plan de marketing puede contemplar la investigación de mercados mediante grupos de enfoque para entender mejor las necesidades/deseos de los clientes potenciales y en qué medida valorarán determinadas ofertas de una empresa y un plan de segmentación, identificando los clientes objetivos que valoran precios bajos en lugar de calidad y aquellos que quieren lo mejor y están dispuestos a pagar por ello.<Br><span style=\"color:darkcyan;\">Low Carb, craft. Nuestro enfoque de Marketing va a ser competir con las grandes en su propio juego: asegurar cuentas clave a través de estímulos económicos a sus locales y obtener a cambio exclusividad para asegurar volumen y branding para presencia de marca.</span>",
+		"respuesta": "En el Sector Público:\nMantener nuestra presencia con los actuales clientes e incorporar nuevos en función a la capacidad instalada de la empresa, de tal forma que nos permita mantener costos operativos bajos y la calidad en el servicio.\nIncursionar a partir del 2021 en el mercado del IMSS, con líneas de productos propias con precios mas competitivos para este segmento de mercado.\nEn el Sector Privado:\nPreferentemente en las zonas geográficas del país en las que tenemos presencia incursionar en hospitales privados para aprovechar nuestra capacidad instalada en cada una de ellas, además incorporar a los servicios actuales insumos diferenciadores que permitan innovar y mejorar los servicios respecto a los que ofrece la competencia.    "
 	}, {
 		"texto": "¿Cómo se promueven los productos/servicios?",
 		"type": "open",
 		"vals": [],
-		"desc": "<span style=\"color:darkgrey;\"></span> <h5>Descripción:</h5>  Publicidad es el arte de llevar a cabo una propuesta de venta y posicionar el producto en la mente del cliente, influyendo en las preferencias de los clientes y consiguiendo una decisión de compra.<Br><Br><h5>Ejemplo:</h5>Un plan de marketing puede contemplar la investigación de mercados mediante grupos de enfoque para entender mejor las necesidades/deseos de los clientes potenciales y en qué medida valorarán determinadas ofertas de una empresa y un plan de segmentación, identificando los clientes objetivos que valoran precios bajos en lugar de calidad y aquellos que quieren lo mejor y están dispuestos a pagar por ello.<Br><span style=\"color:darkcyan;\"><h3>Publicidad y Promoción</h3><Br><ul><li>Medios de comunicación tradicionales tales como la televisión y radio comercial, revistas y periódicos comerciales, anuncios en internet y carteles en carreteras</li><li>Catálogos y bases de datos de clientes para identificar promociones</li><li>Clasificar y seleccionar anuncios en revistas</li><li>Telemarketing</li><li>Presentaciones</li><li>Crear comunidades online, marketing digital, aprovechando las redes sociales</li><li>Resultados por motor de búsqueda con palabras clave no remunerado</li><li>Marketing de boca a boca</li><li>Relaciones públicas.</li></span>",
-		"respuesta": ""
+		"desc": "<span style=\"color:darkgrey;\"></span> <h5>Descripción:</h5>  Publicidad es el arte de llevar a cabo una propuesta de venta y posicionar el producto en la mente del cliente, influyendo en las preferencias de los clientes y consiguiendo una decisión de compra.<Br><h5>Ejemplo:</h5>Un plan de marketing puede contemplar la investigación de mercados mediante grupos de enfoque para entender mejor las necesidades/deseos de los clientes potenciales y en qué medida valorarán determinadas ofertas de una empresa y un plan de segmentación, identificando los clientes objetivos que valoran precios bajos en lugar de calidad y aquellos que quieren lo mejor y están dispuestos a pagar por ello.<Br><span style=\"color:darkcyan;\">Publicidad y Promoción.<Br>Medios de comunicación tradicionales, tales como la televisión y radio comercial, revistas y periódicos comerciales, anuncios en internet y carteles en carreteras,<Br>Catálogos y bases de datos de clientes para identificar promociones,<Br>Clasificar y seleccionar anuncios en revistas,<Br>Telemarketing,<Br>Presentaciones,<Br>Crear comunidades online, marketing digital, aprovechando las redes sociales,<Br>Resultados por motor de búsqueda con palabras clave no remunerado,<Br>Marketing de boca a boca,<Br>Relaciones públicas.</span>",
+		"respuesta": "En el Sector Público a través de Concursos y/o Licitaciones Públicas.\nTambién se trabaja con cada uno de los clientes para diseñar el servicio de acuerdo a sus necesidades y expectativas que éste espera del servicio."
 	}],
 	"C: Objetivos estratégicos": [{
 		"texto": "¿Cuáles son los objetivos financieros de la compañía a corto, mediano y largo plazo?",
@@ -138,13 +138,13 @@
 		"type": "open",
 		"vals": [],
 		"desc": "<span style=\"color:darkgrey;\"></span> <h5>Descripción:</h5>El curso de acción para implementar la visión. La declaración de la misión debe ser concisa y clara. Una buena misión se destina a alinear todas las partes interesadas (propietarios, empleados, clientes, proveedores) y hacer la asignación adecuada de recursos.  <Br><Br><h5>Ejemplo:</h5>Los posibles elementos de la declaración de la misión son: i) los valores básicos, ii) clientes y/u otros interesados, iii) los productos, iv) ventaja competitiva, v) valores provistos  al cliente, vi) mercados o industrias en los que se participará.<br><span style=\"color:darkcyan;\"></span>",
-		"respuesta": ""
+		"respuesta": "Innovar y adecuar tecnología en servicio hospitalario, en beneficio de los pacientes, los hospitales y colaboradores.\n"
 	}, {
 		"texto": "¿Cuál es la visión de la empresa?",
 		"type": "open",
 		"vals": [],
 		"desc": "<span style=\"color:darkgrey;\"></span> <h5>Descripción:</h5>Una visión es una declaración informada y orientada hacia el futuro con el propósito de definir el destino de la empresa. Una sólida visión proporciona dirección y muestra un camino a seguir. La visión de la empresa puede inspirar a todos los participantes de la empresa, cuando proporciona una clara, coherente, única y fácil  manera de entender el propósito.  <Br><Br><h5>Ejemplo:</h5>Los posibles elementos de una visión son: i) Claridad: fácil de entender, enfocada, ii) Coherencia: se mantiene constante durante un período de tiempo, pero es ajustable según las condiciones, iii) Único, ya que es especial a la empresa en cuestión y, IV) Propositivo ya que proporciona a la compañía una razón de ser.<br><span style=\"color:darkcyan;\"></span>",
-		"respuesta": ""
+		"respuesta": "Generar la tendencia en servicios hospitalarios.\n"
 	}],
 	"D: Productos y servicios": [{
 		"texto": "¿Cuáles son los productos y servicios comercializados y cuantos clientes han sido atendidos durante los últimos 12 meses?",
@@ -236,7 +236,7 @@
 		"texto": "Pronóstico de Ventas",
 		"type": "table",
 		"vals": ["Producto/Servicio", "Año actual", "Año +1", "Año +2", "Año +3"],
-		"desc": "<h5>Descripción:</h5><Br>Él/Ella ________ es el Director General de la compañía.<Br> Él/Ella es responsable de gestionar las operaciones de la empresa y supervisar el rendimiento general y el desarrollo futuro de la empresa, así como el crecimiento a largo<Br> plazo y la implementación de las estrategias de la empresa. Él/Ella trae a la empresa su experiencia previa como:<Br> ___________; donde él/ella era responsable de:<Br> ___________. Además del papel mencionado arriba, él/ella fue responsable de _________ en ________. El/la Sr.<Br> /Sra. ___ se graduó de________ _______, ___en el año ___.<Br>(Agregue información adicional).",
+		"desc": "",
 		"respuesta": ""
 	}],
 	"G: Resumen Organizacional": [{
@@ -244,10 +244,19 @@
 		"type": "table",
 		"vals": ["Nombre", "Posición"],
 		"desc": "",
-		"respuesta": ""
+		"respuesta": [
+			[],
+			["Adrian Cervantes", "Dirección General"],
+			["Luis Oscar Agulera", "Director de Finanzas"],
+			["José Luis Jacuinde", "Director Médico"],
+			["Marilú Barradas", "Director de RRHH"],
+			["Evaristo Prendes", "Director Comercial"],
+			["Antonio Murrieta", "Director de TI"],
+			["Tania Montero", "Director Jurídico"]
+		]
 	}, {
-		"texto": "Proporcione una semblanza de la alta dirección de la compañía.",
-		"type": "open",
+		"texto": "Por favor llene los espacios en blanco.",
+		"type": "form",
 		"vals": [],
 		"desc": "",
 		"respuesta": ""
@@ -258,4 +267,4 @@
 		"desc": "",
 		"respuesta": ""
 	}]
-} 
+}
