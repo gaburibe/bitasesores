@@ -6,7 +6,7 @@
 		"desc": "Descripción:<Br><Br>Una empresa industrial transforma materiales en productos elaborados.<Br><Br>Una empresa comercial compra bienes o servicios y los vende, sin transformarlos.<Br><Br>Una empresa de servicios, proporciona activos intangibles.<Br><Br>Ejemplos:<Br><Br>Industrial<Br>Extracción de Recursos Naturales.<Br>Fabricación de consumo por los usuarios finales, o de otras empresas (productos químicos, maquinaria, etc).<Br><Br>Comerciales<Br>Comercio al por mayor.<Br>Minorista.<Br>Re-vendedores.<Br><Br>Servicios<Br>Transportación.<Br>Servicios Financieros.<Br>Contabilidad, Consultoría, Servicios Jurídicos.<Br>Educación.<Br>Servicios de Salud.",
 		"respuesta": ""
 	}, {
-		"texto": "¿Dónde están localizados los clientes de la compañía? ",
+		"texto": "¿Dónde están localizados los clientes de la compañía?  ",
 		"type": "open",
 		"vals": [],
 		"desc": "<span style=\"color:darkgrey;\">Indica de arriba hacia abajo usando criterios de concentración</span><Br> <h5> Ejemplo:<h5><span class=\"ejemploc\">CDMX, Guadalajar, Puebla, Queretaro, Monterrey<span/>",
